@@ -4,10 +4,10 @@ import { Card, TextContainer, Text } from "@shopify/polaris";
 import { Toast } from "@shopify/app-bridge-react";
 
 export function ProductsCard() {
+  const fetch = useAuthenticatedFetch();
   const emptyToastProps = { content: null };
   const [isLoading, setIsLoading] = useState(true);
   const [toastProps, setToastProps] = useState(emptyToastProps);
-  const fetch = useAuthenticatedFetch();
 
   const {
     data,
