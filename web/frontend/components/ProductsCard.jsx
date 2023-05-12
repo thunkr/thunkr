@@ -57,7 +57,7 @@ export function ProductsCard() {
       >
         <TextContainer spacing="loose">
           <p>
-            Sample products are created with a default title and price. You can
+            Sample products are created sadasdwith a default title and price. You can
             remove them at any time.
           </p>
           <Text as="h4" variant="headingMd">
