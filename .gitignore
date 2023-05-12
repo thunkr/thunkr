@@ -25,4 +25,4 @@ config/tunnel.pid
 extensions/*/build
 
 # Node library SQLite database
-web/database.sqlite
+
