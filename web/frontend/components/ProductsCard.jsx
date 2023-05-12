@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { useAppQuery, useAuthenticatedFetch } from "../hooks";
 import { Card, TextContainer, Text } from "@shopify/polaris";
 import { Toast } from "@shopify/app-bridge-react";
-import { useAppQuery, useAuthenticatedFetch } from "../hooks";
 
 export function ProductsCard() {
   const emptyToastProps = { content: null };
